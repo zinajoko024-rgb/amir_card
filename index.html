@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMIR | Personal Card</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #101216;
+  color: #fff;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 370px;
+  padding: 32px 24px;
+  text-align: center;
+  background: #191d24;
+  border: 1px solid #292f3a;
+  border-radius: 24px;
+  box-shadow: 0 15px 45px #0008;
+}
+
+.avatar {
+  width: 112px;
+  height: 112px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  border: 3px solid #4a9eff;
+  object-fit: cover;
+  background: #252d39;
+}
+
+h1 {
+  margin: 8px 0;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.bio {
+  color: #4a9eff;
+  font-size: 14px;
+  margin: 12px 0 24px;
+}
+
+.info {
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 12px;
+  background: #222832;
+  color: #dce5f0;
+  font-size: 14px;
+}
+
+.buttons {
+  display: grid;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+a {
+  display: block;
+  padding: 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: #287bd1;
+  transition: 0.2s;
+}
+
+a:hover {
+  background: #4397f0;
+}
+
+.instagram {
+  background: #303947;
+}
+
+.footer {
+  margin-top: 25px;
+  color: #778392;
+  font-size: 11px;
+}
+</style>
+</head>
+
+<body>
+<main class="card">
+
+  <img class="avatar" src="profile.jpg"
+       alt="AMIR"
+       onerror="this.style.display='none'">
+
+  <h1>AMIR</h1>
+
+  <div class="bio">اصالت مازندران</div>
+
+  <div class="info">📍 آمل، مازندران</div>
+
+  <div class="info">📞 09119176341</div>
+
+  <div class="buttons">
+    <a href="tel:09119176341">تماس با امیر</a>
+
+    <a class="instagram"
+       href="https://instagram.com/amir_amol_aa"
+       target="_blank"
+       rel="noopener">
+       Instagram | @amir_amol_aa
+    </a>
+  </div>
+
+  <div class="footer">PERSONAL DIGITAL CARD</div>
+
+</main>
+</body>
+</html>
